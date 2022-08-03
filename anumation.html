@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            width:300px;
+            height: 300px;
+            position:absolute;
+            top:50%;
+            left:50%;
+            line-height: 30px;
+            margin: -150px;
+            background-color: white;
+            color:blue;
+            text-align: center;
+            font-size: 40px;
+            box-shadow: 0 0 15px red;
+            /* animation-name: ab;
+            animation-duration: 2s;
+            animation-iteration-count: 3; */
+            /* animation-direction: alternate; */
+            /* animation-direction:reverse; */
+            /* animation-direction: alternate-reverse; */
+            animation: ab 2s infinite alternate;
+            animation-timing-function: ease;
+            animation-duration:2s;
+            animation-delay:5s;
+
+        }
+        /* @keyframes ab {
+            from{border-radius:0%;}
+            to{border-radius:50%;}
+} */
+        @keyframes ab {
+        0%{border-radius:0%;}
+        50%{border-radius:50%; background-color: crimson; color:white;}
+        100%{border-radius:50%; background-image:url('./a2.png'); color:white;}
+
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">Hello</div>
+</body>
+</html>

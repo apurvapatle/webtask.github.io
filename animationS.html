@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 88px;
+            width: 80px;
+            position: relative;
+            background-color: blue;
+            color: white;
+            animation: a 5s infinite;
+        }
+        #div1{animation-timing-function: linear;}
+        #div2{animation-timing-function: ease;}
+        #div3{animation-timing-function: ease-in;}
+        #div4{animation-timing-function: ease-out;}
+        #div5{animation-timing-function: ease-in-out;}
+        @keyframes a {
+            from{left: 0;}
+            to{left: 300px;}
+                     }
+        div:hover{
+            width: 200px;
+            height: 400px;
+        }             
+    </style>
+</head>
+<body>
+    <div id="div1">Hello</div>
+    <br>
+    <div id="div2">Hello</div>
+    <br>
+    <div id="div3">Hello</div>
+    <br>
+    <div id="div4">Hello</div>
+    <br>
+    <div id="div5">Hello</div>
+
+</body>
+</html>

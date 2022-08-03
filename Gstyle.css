@@ -1,0 +1,30 @@
+.cbox{
+    border: 5px solid;
+}
+.arow{
+    border:10px solid rebeccapurple;
+}
+.adiv{
+    height: 60px;
+    background-color: aqua;
+}
+.bdiv{
+    height: 60px;
+    background-color:darkcyan;
+}
+.cdiv{
+    height: 60px;
+    background-color: blue;
+}
+.ddiv{
+    height: 60px;
+    background-color: fuchsia;
+}
+.ediv{
+    height: 60px;
+    background-color: forestgreen;
+}
+.fdiv{
+    height: 60px;
+    background-color: firebrick;
+}
